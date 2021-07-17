@@ -93,9 +93,9 @@ p.signed {
 }
 
 #card-front {
-  background-color: #ee9ca7;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#ff5555), to(#ff7777));
-  background-image: linear-gradient(top, #ff5555 0%, #ff7777 100%);
+  background-color: #73ff50;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#77ff55), to(#82ff77));
+  background-image: linear-gradient(top, #93ff55 0%, #77ff77 100%);
   -webkit-transform-origin: left;
   transform-origin: left;
   -webkit-transition: -webkit-transform 1s linear;
@@ -132,7 +132,7 @@ p.signed {
   position: absolute;
   bottom: 1em;
   right: -12px;
-  background: #f44;
+  background: rgb(54, 168, 245);
   color: #fff;
   font-family: "Lobster", cursive;
   font-style: italic;
@@ -147,7 +147,7 @@ p.signed {
 
 #card-front button:hover,
 #card-front button:focus {
-  background: #f22;
+  background: rgb(34, 240, 255);
 }
 
 #close {
